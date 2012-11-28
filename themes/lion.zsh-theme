@@ -15,8 +15,10 @@
 # ☀ ✹ ☄ ♆ ♀ ♁ ♐ ♇ ♈ ♉ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♣ ⚢ ⚲ ⚳ ⚴ ⚥ ⚤ ⚦ ⚒ ⚑ ⚐ ♺ ♻ ♼ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷
 # ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚ ⩛ ⩡ ⩱ ⩲ ⩵  ⩶ ⨠ 
 # ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬒ ⬓ ⬔ ⬕ ⬖ ⬗ ⬘ ⬙ ⬟  ⬤ 〒 ǀ ǁ ǂ ĭ Ť Ŧ
-# 
-PROMPT='%{$fg_bold[blue]%}♌ %{$fg_bold[magenta]%}(%c%)%{$fg_bold[green]%}!~ %{$reset_color%}'
+#
+# ♌ 
+
+PROMPT='%{$fg_bold[blue]%}♌%{$fg_bold[magenta]%}(%c%)%{$fg_bold[green]%}!~ %{$reset_color%}'
 RPROMPT='$(git_prompt_full)%{$reset_color%}'
 
 # Git theme
@@ -32,3 +34,4 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$fg_bold[red]%}✖ "
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%}➜ "
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%}ǁ"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[black]%}✭ "
+
